@@ -1,0 +1,46 @@
+{
+  "name": "an-uuid",
+  "version": "1.0.0",
+  "description": "Fast UUID v4 generator",
+  "main": "index.js",
+  "author": {
+    "name": "Yoran Brault",
+    "email": "yoran.brault@arnumeral.fr",
+    "url": "http://arnumeral.fr"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yoran-brault/an-uuid.git"
+  },
+  "keywords": [
+    "uuid"
+  ],
+  "bugs": {
+    "url": "https://github.com/yoran-brault/an-uuid/issues"
+  },
+  "homepage": "https://github.com/yoran-brault/an-uuid",
+  "devDependencies": {
+    "an-log": "^1.0.2",
+    "mocha": "^2.2.5"
+  },
+  "jshintConfig": {
+    "asi": true,
+    "strict": false,
+    "maxlen": 256,
+    "undef": true,
+    "unused": true,
+    "indent": 2,
+    "loopfunc": false,
+    "validthis": false,
+    "jquery": true,
+    "node": true,
+    "browser": true,
+    "globals": {}
+  }
+}
